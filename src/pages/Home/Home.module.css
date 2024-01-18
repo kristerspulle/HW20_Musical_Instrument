@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.link {
+  display: flex;
+  padding: 40px 100px;
+  backdrop-filter: blur(6px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 700;
+  mix-blend-mode: screen;
+  transition: 0.3s;
+}
+
+.link:hover {
+  scale: 1.1;
+}

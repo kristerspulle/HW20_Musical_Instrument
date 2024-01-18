@@ -1,0 +1,7 @@
+.key{
+  width: 140px;
+  height: 140px;
+  background-color: white;
+  border-radius: 15px;
+  border: 5px solid rgb(29, 29, 32);
+}
