@@ -34,7 +34,7 @@ export const MusicPage = () => {
   return (
     <div className={styles.keyWrapper}>
       <img className={styles.image} src="public/codelex.svg" alt="codelex" />
-      <div className={styles.asd}>
+      <div className={styles.wrapper}>
         {keyArray.map((index) => (
           <PlayButton key={index} soundFile={sounds[index]}/>
         ))}

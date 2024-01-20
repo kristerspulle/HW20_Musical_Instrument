@@ -11,7 +11,7 @@
   align-items: center;
   border-radius: 20px;
 }
-.asd{
+.wrapper{
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -26,9 +26,6 @@
   padding: 20px 20px 20px 20px;
   border-radius: 20px;
 }
-.pageWrapper{
-  background-color: black;
-}
 
 .image{
   aspect-ratio: 6.39;
@@ -36,16 +33,3 @@
   margin-top: 25px;
 }
 
-/* display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-  max-width: 700px;
-  max-height: 760px;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(48, 48, 53);
-  gap: 30px;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 60px 20px 20px 20px;
-  border-radius: 20px; */
